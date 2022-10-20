@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+        <opening>
+                <tap>content/bgm/1_시작화면.mp3</tap>
+                <bgm>content/bgm/2_가게.mp3</bgm>
+                <bgm>content/bgm/3_낚시.mp3</bgm>
+                <bgm>content/bgm/4_설정.mp3</bgm>
+                <bgm>content/bgm/5_상점.mp3</bgm>
+        </opening>
+        <bedending>
+                <tap type="image">content/cartoon/bed0.png</tap>
+                <tap type="image">content/cartoon/bed3.png</tap>
+                <tap type="script" x="480" y="910" width="320" height="200">자기소개 부탁드립니다.</tap>
+                <tap type="script" x="650" y="730" width="320" height="200">면접번호 xxx번 냥냥대학교 인문사회 어쩌고 저쩌고...</tap>
+                <tap type="image">content/cartoon/bed4.png</tap>
+                <tap type="script" x="1020" y="980" width="200", height="200">아니, 자네 
+괜찮은가?</tap>
+                <tap type="script" x="1260" y="660" width="250", height="200">세상에 
+단과대 이름만 3시간 얘기하고 쓰러졌어</tap>
+                <tap type="script" x="1320" y="990" width="180", height="200">여기 신고 좀 
+해주세요</tap>
+                <tap type="end"/>
+        </bedending>
+</root>
